@@ -2,7 +2,7 @@
 
 - [x] 1. HTML Fundamentals [Build a personal bio page with headings, lists, links]
 
-- [ ] 2. CSS Fundamentals [Style the bio page: colors, fonts, margins, borders]
+- [x] 2. CSS Fundamentals [Style the bio page: colors, fonts, margins, borders]
 
 - [ ] 3. Intro to JavaScript [Add a button that shows an alert when clicked]
 
