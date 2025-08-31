@@ -58,7 +58,7 @@
 
 - [ ] 29. Accessibility Basics (a11y) [Make form & page screen-reader friendly]
 
-- [ ] 30. Semantic HTML [Build blog with <article>, <section>, <aside>]
+- [ ] 30. Semantic HTML [Build blog with `<article>`, `<section>`, `<aside>`]
 
 - [ ] 31. Forms Deep Dive [Custom validation with JS + HTML attributes]
 
