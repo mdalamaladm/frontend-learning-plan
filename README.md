@@ -2,77 +2,77 @@
 
 - [x] 1. HTML Fundamentals [Build a personal bio page with headings, lists, links]
 
-- [x] 2. CSS Fundamentals [Style the bio page: colors, fonts, margins, borders]
+- [ ] 2. CSS Fundamentals [Style the bio page: colors, fonts, margins, borders]
 
-- [x] 3. Intro to JavaScript [Add a button that shows an alert when clicked]
+- [ ] 3. Intro to JavaScript [Add a button that shows an alert when clicked]
 
-- [x] 4. Set up VS Code [Install extensions, configure settings, auto-save]
+- [ ] 4. Set up VS Code [Install extensions, configure settings, auto-save]
 
-- [x] 5. Control Flow [Build a small quiz app with if/else and switch]
+- [ ] 5. Control Flow [Build a small quiz app with if/else and switch]
 
-- [x] 6. Loops [Create a multiplication table generator with loops]
+- [ ] 6. Loops [Create a multiplication table generator with loops]
 
-- [x] 7. Functions [Refactor quiz app to use reusable functions]
+- [ ] 7. Functions [Refactor quiz app to use reusable functions]
 
-- [x] 8. DOM Basics [Manipulate page elements: change text, style, hide/show]
+- [ ] 8. DOM Basics [Manipulate page elements: change text, style, hide/show]
 
-- [x] 9. Advanced HTML [Form validation with required, pattern, input types]
+- [ ] 9. Advanced HTML [Form validation with required, pattern, input types]
 
-- [x] 10. Advanced CSS [Build a card UI with box-shadow, gradients, transitions]
+- [ ] 10. Advanced CSS [Build a card UI with box-shadow, gradients, transitions]
 
-- [x] 11. Responsive Design [Make layouts mobile-first with media queries]
+- [ ] 11. Responsive Design [Make layouts mobile-first with media queries]
 
-- [x] 12. CSS Variables [Refactor styles with reusable variables]
+- [ ] 12. CSS Variables [Refactor styles with reusable variables]
 
-- [x] 13. Arrays & Objects [Create and display a to-do list with objects in an array]
+- [ ] 13. Arrays & Objects [Create and display a to-do list with objects in an array]
 
-- [x] 14. ES6+ Features [Refactor to-do list with arrow functions, template literals]
+- [ ] 14. ES6+ Features [Refactor to-do list with arrow functions, template literals]
 
-- [x] 15. Events & Delegation [Interactive list: add/remove items with delegation]
+- [ ] 15. Events & Delegation [Interactive list: add/remove items with delegation]
 
-- [x] 16. Fetch API / AJAX [Fetch data from a public API and render on page]
+- [ ] 16. Fetch API / AJAX [Fetch data from a public API and render on page]
 
-- [x] 17. Async / Await [Convert Fetch calls into async/await syntax]
+- [ ] 17. Async / Await [Convert Fetch calls into async/await syntax]
 
-- [x] 18. Error Handling [Handle API errors with try/catch and fallback UI]
+- [ ] 18. Error Handling [Handle API errors with try/catch and fallback UI]
 
-- [x] 19. JSON [Load JSON file and render structured data]
+- [ ] 19. JSON [Load JSON file and render structured data]
 
-- [x] 20. Modules [Split code into import/export modules in JS]
+- [ ] 20. Modules [Split code into import/export modules in JS]
 
-- [x] 21. LocalStorage & SessionStorage [Save user theme preference locally]
+- [ ] 21. LocalStorage & SessionStorage [Save user theme preference locally]
 
-- [x] 22. Cookies & Intro to Auth [Save login info mock with cookies]
+- [ ] 22. Cookies & Intro to Auth [Save login info mock with cookies]
 
-- [x] 23. Promises [Simulate delayed API with setTimeout wrapped in a Promise]
+- [ ] 23. Promises [Simulate delayed API with setTimeout wrapped in a Promise]
 
-- [x] 24. Advanced DOM Manipulation [Drag & drop a list of items]
+- [ ] 24. Advanced DOM Manipulation [Drag & drop a list of items]
 
-- [x] 25. CSS Grid [Rebuild layout with grid for gallery]
+- [ ] 25. CSS Grid [Rebuild layout with grid for gallery]
 
-- [x] 26. CSS Flexbox [Rebuild layout with flexbox for navbar]
+- [ ] 26. CSS Flexbox [Rebuild layout with flexbox for navbar]
 
-- [x] 27. CSS Animations & Transitions [Animate card hover & button click]
+- [ ] 27. CSS Animations & Transitions [Animate card hover & button click]
 
-- [x] 28. CSS Pseudo-classes & elements [Style links, lists, and form inputs]
+- [ ] 28. CSS Pseudo-classes & elements [Style links, lists, and form inputs]
 
-- [x] 29. Accessibility Basics (a11y) [Make form & page screen-reader friendly]
+- [ ] 29. Accessibility Basics (a11y) [Make form & page screen-reader friendly]
 
-- [x] 30. Semantic HTML [Build blog with <article>, <section>, <aside>]
+- [ ] 30. Semantic HTML [Build blog with <article>, <section>, <aside>]
 
-- [x] 31. Forms Deep Dive [Custom validation with JS + HTML attributes]
+- [ ] 31. Forms Deep Dive [Custom validation with JS + HTML attributes]
 
-- [x] 32. CSS Positioning [Sticky header, absolute popups]
+- [ ] 32. CSS Positioning [Sticky header, absolute popups]
 
-- [x] 33. Browser DevTools [Debug & style live in browser]
+- [ ] 33. Browser DevTools [Debug & style live in browser]
 
-- [x] 34. Git & GitHub Basics [Create repo, commit changes, push to GitHub]
+- [ ] 34. Git & GitHub Basics [Create repo, commit changes, push to GitHub]
 
-- [x] 35. Branching & Merging [Work with feature branches, resolve conflicts]
+- [ ] 35. Branching & Merging [Work with feature branches, resolve conflicts]
 
-- [x] 36. GitHub Pages [Host static site directly from repo]
+- [ ] 36. GitHub Pages [Host static site directly from repo]
 
-- [x] 37. Pull Requests & Collaboration [Simulate team workflow with PRs]
+- [ ] 37. Pull Requests & Collaboration [Simulate team workflow with PRs]
 
 - [ ] 38. Package Managers (npm/yarn/pnpm) [Install libraries & use scripts]
 
