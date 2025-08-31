@@ -1,100 +1,199 @@
 # Frontend Learning Plan
 
-| Week | Topic | Status | Learn By Doing |
-|------|-------|--------|----------------|
-| 1 | HTML fundamentals | [x] | Build a simple personal webpage with headings, paragraphs, images, and links |
-| 2 | CSS fundamentals | [x] | Style the webpage: colors, fonts, margins, borders |
-| 3 | Intro to JavaScript | [x] | Add a button that shows an alert on click |
-| 4 | Set up VS Code | [x] | Install VS Code, live server extension, and basic settings |
-| 5 | Control flow | [x] | Create a number guessing game |
-| 6 | Loops | [x] | Print multiplication table or iterate over an array |
-| 7 | Functions | [x] | Create a calculator function (add, subtract, multiply, divide) |
-| 8 | DOM basics | [x] | Make a button that changes text or image on click |
-| 9 | Advanced HTML | [x] | Build a registration form with inputs, radio buttons, checkboxes, dropdowns |
-| 10 | Advanced CSS | [x] | Make a card layout using flexbox and grid |
-| 11 | Responsive design | [x] | Make the webpage mobile-friendly using media queries |
-| 12 | CSS variables | [x] | Use variables for color scheme and spacing |
-| 13 | Arrays & objects | [x] | Create a to-do list storing tasks in an array of objects |
-| 14 | ES6+ features | [x] | Refactor code using template literals, destructuring, spread/rest operators |
-| 15 | Events & delegation | [x] | Add delete buttons for each to-do item |
-| 16 | Fetch API / AJAX | [x] | Fetch and display data from a public API |
-| 17 | Git basics | [x] | Initialize a project, commit changes, check history |
-| 18 | Branching & merging | [x] | Create a feature branch, add a small feature, merge back |
-| 19 | GitHub setup | [x] | Push your project online and check it on GitHub |
-| 20 | VS Code extensions | [x] | Install extensions for JS, React, Prettier |
-| 21 | Modules & imports/exports | [x] | Split JS code into multiple files and import them |
-| 22 | Promises & async/await | [x] | Fetch API data asynchronously and display it |
-| 23 | Error handling | [x] | Handle fetch errors with try/catch |
-| 24 | NPM basics | [x] | Install a library like Axios or Lodash and use it |
-| 25 | Components & props | [x] | Build a card component to display a list of users |
-| 26 | State & useState | [x] | Create a counter app or toggle visibility |
-| 27 | Conditional rendering | [x] | Show “logged in” or “guest” view |
-| 28 | Lists & keys | [x] | Render a list of items dynamically from an array |
-| 29 | Event handling in React | [x] | Add buttons that update state on click |
-| 30 | useEffect & lifecycle | [x] | Fetch API data in React when component mounts |
-| 31 | Context API | [x] | Implement theme switching (dark/light mode) |
-| 32 | React Router | [x] | Make a multi-page app (home, about, contact) |
-| 33 | Forms & controlled components | [x] | Create a form with validation and controlled inputs |
-| 34 | CSS Modules / Styled Components | [x] | Style React components using CSS Modules or Styled Components |
-| 35 | Tailwind CSS basics | [x] | Rebuild a previous component using Tailwind CSS |
-| 36 | Responsive design in React | [x] | Make app mobile-friendly using Tailwind or media queries |
-| 37 | Animations & transitions | [x] | Add hover effects, loading spinners, or transitions |
-| 38 | Redux basics | [ ] | Create global state for to-do list/shopping cart |
-| 39 | Redux Toolkit | [ ] | Refactor Redux setup using Redux Toolkit |
-| 40 | Async actions (Thunk/Saga) | [ ] | Fetch API data and store it in Redux |
-| 41 | Best practices | [ ] | Organize state, reducers, and actions for scalability |
-| 42 | Jest + React Testing Library | [ ] | Write tests for components |
-| 43 | Unit tests & integration tests | [ ] | Test state updates and API calls |
-| 44 | Web performance | [ ] | Optimize images, implement lazy loading, audit with Lighthouse |
-| 45 | Debugging tools | [ ] | Use Chrome DevTools console, network, performance tab |
-| 46 | TypeScript with React | [ ] | Convert a small React app to TypeScript |
-| 47 | Progressive Web Apps (PWA) | [ ] | Add offline mode to a small app |
-| 48 | Next.js basics | [ ] | Create pages with SSR and SSG |
-| 49 | API integration / GraphQL basics | [ ] | Fetch data from a GraphQL API |
-| 50 | Portfolio website | [ ] | Showcase projects, fully responsive |
-| 51 | E-commerce clone | [ ] | Product listing, cart, API integration |
-| 52 | Blog app (Next.js) | [ ] | Markdown posts, dynamic routes, API fetching |
-| 53 | Deploy apps | [ ] | Deploy projects on Vercel, Netlify, or GitHub Pages |
-| 54 | Web Components | [ ] | Create a custom HTML element with Shadow DOM |
-| 55 | WebSockets | [ ] | Implement a small chat app using WebSockets |
-| 56 | Service Workers | [ ] | Make your app work offline with caching |
-| 57 | Memory & performance profiling | [ ] | Use DevTools to identify memory leaks |
-| 58 | React Server Components | [ ] | Build a component rendered on the server |
-| 59 | Suspense & Concurrent Mode | [ ] | Add lazy loading and async rendering |
-| 60 | Advanced hooks | [ ] | Refactor state with useReducer, optimize with useMemo/useCallback |
-| 61 | Component libraries | [ ] | Rebuild a UI using Material UI or Chakra UI |
-| 62 | Folder & code structure | [ ] | Organize a medium-size project for scalability |
-| 63 | State patterns beyond Redux | [ ] | Use Zustand or Recoil for global state |
-| 64 | Design patterns in frontend | [ ] | Implement Observer, Singleton, Factory patterns |
-| 65 | Modular architecture | [ ] | Split project into independent modules |
-| 66 | Lazy loading & code splitting | [ ] | Implement dynamic imports in React/Next.js |
-| 67 | Image optimization | [ ] | Use WebP/AVIF formats and responsive images |
-| 68 | SEO for SPAs | [ ] | Add meta tags, structured data, SSR pages |
-| 69 | Web vitals & Lighthouse | [ ] | Monitor performance, accessibility, SEO |
-| 70 | Apollo Client | [ ] | Fetch and cache GraphQL data |
-| 71 | Real-time subscriptions | [ ] | Implement live updates in a small app |
-| 72 | Authentication patterns | [ ] | JWT, OAuth, token refresh |
-| 73 | Type-safe API integration | [ ] | Use TypeScript with REST or GraphQL APIs |
-| 74 | Advanced types | [ ] | Generics, conditional types, mapped types |
-| 75 | Type-safe state | [ ] | Use TypeScript in Redux or Zustand |
-| 76 | Large project migration | [ ] | Convert a JS project to TypeScript |
-| 77 | Utility types | [ ] | Implement Partial, Pick, Omit, Record, etc. |
-| 78 | Motion & animation | [ ] | Framer Motion or GSAP for React animations |
-| 79 | WebAssembly basics | [ ] | Integrate a simple WASM module |
-| 80 | Micro-frontends & Jamstack / Headless CMS | [ ] | Split project into micro-frontends and connect a React/Next.js app to a headless CMS |
-| 81 | Advanced GraphQL | [ ] | Implement mutations and fragments |
-| 82 | API Security | [ ] | Rate limiting, API keys, input validation |
-| 83 | CI/CD basics | [ ] | Automate deployments with GitHub Actions |
-| 84 | Docker basics | [ ] | Containerize a React or Next.js app |
-| 85 | Kubernetes basics | [ ] | Deploy a containerized app with Kubernetes |
-| 86 | Serverless functions | [ ] | Build and deploy with AWS Lambda or Vercel Functions |
-| 87 | Testing strategies | [ ] | Snapshot, regression, and end-to-end tests |
-| 88 | Cypress or Playwright | [ ] | Write E2E tests for a React app |
-| 89 | Web security basics | [ ] | Handle XSS, CSRF, CORS securely |
-| 90 | OAuth2 & OpenID Connect | [ ] | Add Google/GitHub login |
-| 91 | Advanced PWA | [ ] | Background sync, push notifications |
-| 92 | Internationalization (i18n) | [ ] | Add multi-language support |
-| 93 | Accessibility (a11y) | [ ] | Test with screen readers, keyboard navigation |
-| 94 | Monorepos | [ ] | Use Nx or Turborepo for multi-package projects |
-| 95 | Advanced Next.js features | [ ] | Middleware, API routes, edge functions |
-| 96 | Capstone project | [ ] | Build and deploy a full-stack app |
+- [x] 1. HTML Fundamentals [Build a personal bio page with headings, lists, links]
+
+- [x] 2. CSS Fundamentals [Style the bio page: colors, fonts, margins, borders]
+
+- [x] 3. Intro to JavaScript [Add a button that shows an alert when clicked]
+
+- [x] 4. Set up VS Code [Install extensions, configure settings, auto-save]
+
+- [x] 5. Control Flow [Build a small quiz app with if/else and switch]
+
+- [x] 6. Loops [Create a multiplication table generator with loops]
+
+- [x] 7. Functions [Refactor quiz app to use reusable functions]
+
+- [x] 8. DOM Basics [Manipulate page elements: change text, style, hide/show]
+
+- [x] 9. Advanced HTML [Form validation with required, pattern, input types]
+
+- [x] 10. Advanced CSS [Build a card UI with box-shadow, gradients, transitions]
+
+- [x] 11. Responsive Design [Make layouts mobile-first with media queries]
+
+- [x] 12. CSS Variables [Refactor styles with reusable variables]
+
+- [x] 13. Arrays & Objects [Create and display a to-do list with objects in an array]
+
+- [x] 14. ES6+ Features [Refactor to-do list with arrow functions, template literals]
+
+- [x] 15. Events & Delegation [Interactive list: add/remove items with delegation]
+
+- [x] 16. Fetch API / AJAX [Fetch data from a public API and render on page]
+
+- [x] 17. Async / Await [Convert Fetch calls into async/await syntax]
+
+- [x] 18. Error Handling [Handle API errors with try/catch and fallback UI]
+
+- [x] 19. JSON [Load JSON file and render structured data]
+
+- [x] 20. Modules [Split code into import/export modules in JS]
+
+- [x] 21. LocalStorage & SessionStorage [Save user theme preference locally]
+
+- [x] 22. Cookies & Intro to Auth [Save login info mock with cookies]
+
+- [x] 23. Promises [Simulate delayed API with setTimeout wrapped in a Promise]
+
+- [x] 24. Advanced DOM Manipulation [Drag & drop a list of items]
+
+- [x] 25. CSS Grid [Rebuild layout with grid for gallery]
+
+- [x] 26. CSS Flexbox [Rebuild layout with flexbox for navbar]
+
+- [x] 27. CSS Animations & Transitions [Animate card hover & button click]
+
+- [x] 28. CSS Pseudo-classes & elements [Style links, lists, and form inputs]
+
+- [x] 29. Accessibility Basics (a11y) [Make form & page screen-reader friendly]
+
+- [x] 30. Semantic HTML [Build blog with <article>, <section>, <aside>]
+
+- [x] 31. Forms Deep Dive [Custom validation with JS + HTML attributes]
+
+- [x] 32. CSS Positioning [Sticky header, absolute popups]
+
+- [x] 33. Browser DevTools [Debug & style live in browser]
+
+- [x] 34. Git & GitHub Basics [Create repo, commit changes, push to GitHub]
+
+- [x] 35. Branching & Merging [Work with feature branches, resolve conflicts]
+
+- [x] 36. GitHub Pages [Host static site directly from repo]
+
+- [x] 37. Pull Requests & Collaboration [Simulate team workflow with PRs]
+
+- [ ] 38. Package Managers (npm/yarn/pnpm) [Install libraries & use scripts]
+
+- [ ] 39. Node.js Basics [Run JS outside browser, create a simple script]
+
+- [ ] 40. Modern Build Tools (Intro) [Use npm scripts to bundle/minify]
+
+- [ ] 41. Module Bundlers (Webpack/Vite Intro) [Bundle small app with Webpack or Vite]
+
+- [ ] 42. React Basics [Render component, props, JSX, simple app]
+
+- [ ] 43. State & Props [Pass data down, manage local component state]
+
+- [ ] 44. Handling Events in React [Add click & form events to components]
+
+- [ ] 45. Conditional Rendering [Show/hide elements based on state]
+
+- [ ] 46. Lists & Keys [Render dynamic list with unique keys]
+
+- [ ] 47. Forms in React [Controlled components for forms]
+
+- [ ] 48. useEffect [Fetch API data and display on mount]
+
+- [ ] 49. useState [Counter app with increment/decrement]
+
+- [ ] 50. Component Composition [Reusable button & layout components]
+
+- [ ] 51. Custom Hooks [Create hook for form handling]
+
+- [ ] 52. React Router Basics [Multi-page navigation with Router]
+
+- [ ] 53. Nested Routes [App with nested dashboard routes]
+
+- [ ] 54. Dynamic Routes [User profile page with :id param]
+
+- [ ] 55. Protected Routes [Auth-based access to routes]
+
+- [ ] 56. Redux Basics [Global state with Redux store]
+
+- [ ] 57. Actions & Reducers [Todo app with Redux actions]
+
+- [ ] 58. Redux Thunk / Middleware [Async API call with Redux Thunk]
+
+- [ ] 59. Redux Toolkit [Simplify Redux setup with RTK]
+
+- [ ] 60. Context API [Global theme provider with Context]
+
+- [ ] 61. Portfolio Website [Showcase projects, fully responsive]
+
+- [ ] 62. E-commerce Clone [Product listing, cart, API integration]
+
+- [ ] 63. Blog App (Next.js) [Markdown posts, dynamic routes, API fetching]
+
+- [ ] 64. Deploy Apps [Deploy projects on Vercel, Netlify, or GitHub Pages]
+
+- [ ] 65. Web Components [Custom HTML element with Shadow DOM]
+
+- [ ] 66. WebSockets [Small chat app with WebSockets]
+
+- [ ] 67. Service Workers [Offline caching for your app]
+
+- [ ] 68. Memory & Performance Profiling [Use DevTools to spot memory leaks]
+
+- [ ] 69. React Server Components [Build a component rendered on server]
+
+- [ ] 70. Suspense & Concurrent Mode [Lazy load + async rendering]
+
+- [ ] 71. Advanced Hooks [useReducer, useMemo, useCallback]
+
+- [ ] 72. Component Libraries [Rebuild UI using Material UI/Chakra]
+
+- [ ] 73. Folder & Code Structure [Organize medium-size project]
+
+- [ ] 74. State Patterns beyond Redux [Use Zustand or Recoil for global state]
+
+- [ ] 75. Design Patterns in Frontend [Implement Observer, Factory, Singleton]
+
+- [ ] 76. Modular Architecture [Split project into independent modules]
+
+- [ ] 77. Lazy Loading & Code Splitting [Dynamic imports in React/Next.js]
+
+- [ ] 78. Image Optimization [Use WebP/AVIF + responsive images]
+
+- [ ] 79. SEO for SPAs [Add meta tags, SSR, structured data]
+
+- [ ] 80. Web Vitals & Lighthouse [Monitor perf, SEO, accessibility]
+
+- [ ] 81. Apollo Client [Fetch/cache GraphQL data]
+
+- [ ] 82. Real-time Subscriptions [Implement live updates]
+
+- [ ] 83. Authentication Patterns [JWT, OAuth, refresh tokens]
+
+- [ ] 84. Type-safe API Integration [TypeScript with REST/GraphQL]
+
+- [ ] 85. Advanced Types [Generics, conditional, mapped types]
+
+- [ ] 86. Type-safe State [TypeScript in Redux/Zustand]
+
+- [ ] 87. Large Project Migration [Convert JS project to TS]
+
+- [ ] 88. Utility Types [Partial, Pick, Omit, Record]
+
+- [ ] 89. Motion & Animation [Framer Motion or GSAP]
+
+- [ ] 90. WebAssembly Basics [Integrate a small WASM module]
+
+- [ ] 91. Micro-frontends & Jamstack / Headless CMS [Split into micro-frontends, use CMS]
+
+- [ ] 92. Webpack Deep Dive [Custom config, loaders, plugins]
+
+- [ ] 93. Vite Deep Dive [Optimize React app with Vite]
+
+- [ ] 94. Babel [Transpile modern JS for older browsers]
+
+- [ ] 95. ESLint & Prettier [Lint and format code automatically]
+
+- [ ] 96. Jest Basics [Test functions with Jest]
+
+- [ ] 97. React Testing Library [Test components with RTL]
+
+- [ ] 98. Cypress [End-to-end test for a flow]
+
+- [ ] 99. GitHub Actions [CI/CD pipeline for tests/build]
