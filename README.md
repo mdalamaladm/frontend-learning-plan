@@ -4,9 +4,9 @@
 
 - [x] 2. CSS Fundamentals [Style the bio page: colors, fonts, margins, borders]
 
-- [ ] 3. Intro to JavaScript [Add a button that shows an alert when clicked]
+- [x] 3. Intro to JavaScript [Add a button that shows an alert when clicked]
 
-- [ ] 4. Set up VS Code [Install extensions, configure settings, auto-save]
+- [x] 4. [NO CODE] Set up VS Code [Install extensions, configure settings, auto-save]
 
 - [ ] 5. Control Flow [Build a small quiz app with if/else and switch]
 
