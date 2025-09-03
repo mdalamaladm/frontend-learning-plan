@@ -10,7 +10,7 @@
 
 - [x] 5. Control Flow [Build a small quiz app with if/else and switch]
 
-- [ ] 6. Loops [Create a multiplication table generator with loops]
+- [x] 6. Loops [Create a multiplication table generator with loops]
 
 - [ ] 7. Functions [Refactor quiz app to use reusable functions]
 
