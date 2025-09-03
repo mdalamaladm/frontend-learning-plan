@@ -8,7 +8,7 @@
 
 - [x] 4. [NO CODE] Set up VS Code [Install extensions, configure settings, auto-save]
 
-- [ ] 5. Control Flow [Build a small quiz app with if/else and switch]
+- [x] 5. Control Flow [Build a small quiz app with if/else and switch]
 
 - [ ] 6. Loops [Create a multiplication table generator with loops]
 
