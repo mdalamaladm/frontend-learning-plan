@@ -16,7 +16,7 @@
 
 - [x] 8. DOM Basics [Manipulate page elements: change text, style, hide/show]
 
-- [ ] 9. Advanced HTML [Form validation with required, pattern, input types]
+- [x] 9. Advanced HTML [Form validation with required, pattern, input types]
 
 - [ ] 10. Advanced CSS [Build a card UI with box-shadow, gradients, transitions]
 
