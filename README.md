@@ -12,7 +12,7 @@
 
 - [x] 6. Loops [Create a multiplication table generator with loops]
 
-- [ ] 7. Functions [Refactor quiz app to use reusable functions]
+- [x] 7. Functions [Refactor quiz app to use reusable functions]
 
 - [ ] 8. DOM Basics [Manipulate page elements: change text, style, hide/show]
 
