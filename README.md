@@ -14,7 +14,7 @@
 
 - [x] 7. Functions [Refactor quiz app to use reusable functions]
 
-- [ ] 8. DOM Basics [Manipulate page elements: change text, style, hide/show]
+- [x] 8. DOM Basics [Manipulate page elements: change text, style, hide/show]
 
 - [ ] 9. Advanced HTML [Form validation with required, pattern, input types]
 
