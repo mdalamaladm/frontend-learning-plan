@@ -18,7 +18,7 @@
 
 - [x] 9. Advanced HTML [Form validation with required, pattern, input types]
 
-- [ ] 10. Advanced CSS [Build a card UI with box-shadow, gradients, transitions]
+- [x] 10. Advanced CSS [Build a card UI with box-shadow, gradients, transitions]
 
 - [ ] 11. Responsive Design [Make layouts mobile-first with media queries]
 
