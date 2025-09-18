@@ -22,7 +22,7 @@
 
 - [x] 11. Responsive Design [Make layouts mobile-first with media queries]
 
-- [ ] 12. CSS Variables [Refactor styles with reusable variables]
+- [x] 12. CSS Variables [Refactor styles with reusable variables]
 
 - [ ] 13. Arrays & Objects [Create and display a to-do list with objects in an array]
 

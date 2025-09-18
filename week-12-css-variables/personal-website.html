@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --mda-primary: #A6B28B;
+      --mda-secondary: #1C352D;
+    }
+    
+    html {
+      margin-top: 4rem;
+      margin-bottom: 5.5rem;
+      background-color: var(--mda-primary);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      margin: 1rem;
+    }
+
+    body > :not(.mode) {
+      position: relative;
+      top: 1rem;
+      opacity: 0;
+      transition: all ease-in-out 0.5s;
+    }
+
+    body > .show-transition {
+      top: 0;
+      opacity: 1;
+    }
+
+    .mode {
+      display: flex;
+      justify-content: flex-end;
+      margin: 0 0.5rem 1rem 0;
+    }
+
+    .mode > button {
+      padding: 0.7rem 1.2rem;
+      background-color: var(--mda-secondary);
+      color: var(--mda-primary);
+      font-size: 0.8rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    
+    .title-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 3rem;
+    }
+
+    .title {
+      max-width: 30rem;
+      text-align: center;
+      font-size: 1rem;
+      color: var(--mda-secondary);
+    }
+
+    .title.fullname {
+      font-size: 0.8rem;
+    }
+
+    .image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.5rem;
+    }
+ 
+    .image {
+      place-content: center;
+      width: 100%;
+      max-width: 30rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: var(--mda-secondary);
+      font-size: 0.8rem;
+    }
+
+    .text > p {
+      max-width: 30rem;
+      margin-bottom: 1rem;
+    }
+
+    .text > p > a {
+      word-break: break-all;
+    }
+
+    .age {
+      margin-right: 0.2rem;
+      background-color: var(--mda-secondary);
+      color: var(--mda-secondary);
+    }
+
+    .card-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .card-wrapper > a {
+      flex: 0 1 20rem;
+      display: block;
+      width: 8rem;
+      padding: 0.5rem;
+      background-color: white;
+      color: var(--mda-secondary);
+      text-decoration: none;
+      border-radius: 0.3rem;
+      box-shadow: var(--mda-secondary) 1px 1px 20px;
+    }
+
+    .card-wrapper img {
+      width: 100%;
+      border-radius: 0.3rem;
+    }
+
+    .project-title {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .project-description {
+      margin: 0 1rem 1rem 1rem;
+      font-size: 0.8rem;
+    }
+
+    /* Phone Breakpoint */
+    @media screen and (min-width: 320px) {
+      .mode {
+        margin: 0 0.5rem 1.8rem 0;
+      }
+
+      .mode > button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+      }
+      
+      .title-wrapper {
+        margin-bottom: 1rem;
+      }
+
+      .title {
+        font-size: 2rem;
+      }
+
+      .title.fullname {
+        font-size: 1.5rem;
+      }
+
+      .text {
+        font-size: 1rem;
+      }
+
+      .card-wrapper {
+        gap: 1rem;
+      }
+
+      .card-wrapper > a {
+        padding: 0.8rem;
+      }
+
+      .project-title {
+        font-size: 1.2rem;
+      }
+
+      .project-description {
+        font-size: 1rem;
+      }
+    }
+
+    /* Tablet Breakpoint */
+    @media screen and (min-width: 481px) {
+      .card-wrapper {
+        gap: 1rem;
+        margin-top: 3rem;
+      }
+
+      .card-wrapper > a {
+        padding: 1rem;
+      }
+
+      .project-title{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      .project-description {
+        margin: 0 1rem 1rem 1rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    /* Small Desktop Breakpoint */
+    @media screen and (min-width: 769px) {
+      .mode {
+        margin: 0 2rem 1rem 0;
+      }
+
+      .title-wrapper {
+        height: 4rem;
+        margin-bottom: 2rem;
+      }
+
+      .title {
+        font-size: 3rem;
+      }
+
+      .title.fullname {
+        font-size: 2rem;
+      }
+
+      .image-container {
+        margin-bottom: 2rem;
+      }
+
+      .text {
+        font-size: 1.2rem;
+      }
+    }
+
+    /* Large Desktop Breakpoint */
+    @media screen and (min-width: 1025px) {
+
+    }
+  </style>
+  <title>@mdalamaladm</title>
+</head>
+<body>
+  <div class="mode">
+    <button onclick="onChangeMode()">Light</button>
+  </div>
+  <div class="title-wrapper">
+    <h1 class="title">@mdalamaladm</h1>
+  </div>
+  <div class="image-container">
+    <img class="image" src="../assets/nature.jpg" alt="Nature">
+  </div>
+  <div class="text">
+    <p>My name is Muhammad Dzaky Alamsyah (I'm <span class="age" onclick="onShowAge()">25</span> btw). People call me Alam, or Dzaky (pronounced: Zakeey). I am a software engineer that currently strong in frontend, have a basic in backend, and a little bit in the DevOps. Still learning so i can handle all of it better.</p>
+    <p>Fyi, this is my GitHub: <a href="https://github.com/mdalamaladm" target="_blank">github@mdalamaladm</a>. Feel free to visit.</p>
+    <p>With that said, I will show you my projects that i've done it. I will update it accordingly.</p>
+  </div>
+  <div class="card-wrapper"></div>
+
+  <script>
+    const projects = [
+      {
+        title: 'Personal Website',
+        image: '../assets/personal-website.png',
+        href: '../week-10-advanced-css/personal-website.html',
+        description: 'Well duh, this should be included. Enjoy the \'Yo Dawg\' moment'
+      },
+      {
+        title: '"About Me" Quiz',
+        image: '../assets/quiz.png',
+        href: '../week-9-advanced-html/quiz.html',
+        description: 'My first project from the learning plan'
+      },
+      {
+        title: 'Multiplication table',
+        image: '../assets/multiplication-table.png',
+        href: '../week-6-loops/multiplication-table.html',
+        description: 'My second project from the learning plan'
+      }
+    ];
+    const title = document.querySelector('.title');
+    const age  = document.querySelector('.age');
+    const modeButton = document.querySelector('.mode > button');
+    const text = document.querySelector('.text');
+    const cardWrapper = document.querySelector('.card-wrapper');
+
+    let mode = 'light';
+
+    age.innerText = (new Date()).getFullYear() - 2000;
+    
+    function changeText () {
+      setTimeout(() => {
+        if (title.innerText === '@mdalamaladm') {
+          title.classList.add('fullname');
+          title.innerText = 'Muhammad Dzaky Alamsyah';
+        } else {
+          title.classList.remove('fullname');
+          title.innerText = '@mdalamaladm';
+        }
+
+        changeText();
+      }, 2500);
+    }
+
+    function onChangeMode () {
+      if (mode === 'light') {
+        document.documentElement.style.backgroundColor = '#16231f';
+        age.style.backgroundColor = 'var(--mda-primary)';
+        age.style.color = 'var(--mda-primary)';
+        modeButton.style.color = 'var(--mda-secondary)';
+        modeButton.style.backgroundColor = 'var(--mda-primary)';
+        title.style.color = 'var(--mda-primary)';
+        text.style.color = 'var(--mda-primary)';
+        modeButton.innerText = 'Dark'
+        mode = 'dark';
+      } else {
+        document.documentElement.style.backgroundColor = 'var(--mda-primary)';
+        age.style.backgroundColor = '#16231f';
+        age.style.color = '#16231f';
+        modeButton.style.color = 'var(--mda-primary)';
+        modeButton.style.backgroundColor = 'var(--mda-secondary)';
+        title.style.color = 'var(--mda-secondary)';
+        text.style.color = 'var(--mda-secondary)';
+        modeButton.innerText = 'Light';
+        mode = 'light';
+      }
+    }
+
+    function onShowAge () {
+      age.style.backgroundColor = 'transparent';
+    }
+
+    changeText();
+
+    for (const project of projects) {
+      const card = document.createElement('a');
+      card.setAttribute('href', project.href);
+      card.setAttribute('target', '_blank');
+
+      const img = document.createElement('img');
+      img.setAttribute('src', project.image);
+      img.setAttribute('alt', project.title);
+
+      const title = document.createElement('p');
+      title.innerText = project.title;
+      title.classList.add('project-title');
+
+      const description= document.createElement('p');
+      description.innerText = project.description;
+      description.classList.add('project-description');
+
+      card.append(img);
+      card.append(title);
+      card.append(description);
+
+      cardWrapper.append(card);
+    }
+
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            if (!entry.target.classList.contains('show-transition')) {
+              entry.target.classList.add('show-transition');
+            }
+          }
+        });
+      },
+      {
+        threshold: 0.5
+      }
+    );
+
+    for (const child of document.body.children) {
+      observer.observe(child);
+    }
+  </script>
+</body>
+</html>
