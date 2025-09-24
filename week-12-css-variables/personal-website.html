@@ -264,20 +264,26 @@
       {
         title: 'Personal Website',
         image: '../assets/personal-website.png',
-        href: '../week-10-advanced-css/personal-website.html',
+        href: 'index.html',
         description: 'Well duh, this should be included. Enjoy the \'Yo Dawg\' moment'
       },
       {
         title: '"About Me" Quiz',
         image: '../assets/quiz.png',
-        href: '../week-9-advanced-html/quiz.html',
+        href: '../projects/quiz.html',
         description: 'My first project from the learning plan'
       },
       {
         title: 'Multiplication table',
         image: '../assets/multiplication-table.png',
-        href: '../week-6-loops/multiplication-table.html',
+        href: '../projects/multiplication-table.html',
         description: 'My second project from the learning plan'
+      },
+      {
+        title: 'Frontend Learning Plan',
+        image: '../assets/frontend-learning-plan.png',
+        href: '../projects/frontend-learning-plan.html',
+        description: 'My third project from the learning plan'
       }
     ];
     const title = document.querySelector('.title');
@@ -307,22 +313,22 @@
     function onChangeMode () {
       if (mode === 'light') {
         document.documentElement.style.backgroundColor = '#16231f';
-        age.style.backgroundColor = 'var(--mda-primary)';
-        age.style.color = 'var(--mda-primary)';
-        modeButton.style.color = 'var(--mda-secondary)';
-        modeButton.style.backgroundColor = 'var(--mda-primary)';
-        title.style.color = 'var(--mda-primary)';
-        text.style.color = 'var(--mda-primary)';
+        age.style.backgroundColor = '#A6B28B';
+        age.style.color = '#A6B28B';
+        modeButton.style.color = '#1C352D';
+        modeButton.style.backgroundColor = '#A6B28B';
+        title.style.color = '#A6B28B';
+        text.style.color = '#A6B28B';
         modeButton.innerText = 'Dark'
         mode = 'dark';
       } else {
-        document.documentElement.style.backgroundColor = 'var(--mda-primary)';
+        document.documentElement.style.backgroundColor = '#A6B28B';
         age.style.backgroundColor = '#16231f';
         age.style.color = '#16231f';
-        modeButton.style.color = 'var(--mda-primary)';
-        modeButton.style.backgroundColor = 'var(--mda-secondary)';
-        title.style.color = 'var(--mda-secondary)';
-        text.style.color = 'var(--mda-secondary)';
+        modeButton.style.color = '#A6B28B';
+        modeButton.style.backgroundColor = '#1C352D';
+        title.style.color = '#1C352D';
+        text.style.color = '#1C352D';
         modeButton.innerText = 'Light';
         mode = 'light';
       }
