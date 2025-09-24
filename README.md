@@ -24,7 +24,7 @@
 
 - [x] 12. CSS Variables [Refactor styles with reusable variables]
 
-- [ ] 13. Arrays & Objects [Create and display a to-do list with objects in an array]
+- [x] 13. Arrays & Objects [Create and display a to-do list with objects in an array]
 
 - [ ] 14. ES6+ Features [Refactor to-do list with arrow functions, template literals]
 
